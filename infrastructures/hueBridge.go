@@ -64,6 +64,5 @@ func (cli *HueBridgeClient) do(req *http.Request) ([]byte, error) {
 	if err != nil {
 		return nil, fmt.Errorf(`byteArray, err := ioutil.ReadAll(res.Body): %w`, err)
 	}
-	fmt.Println(string(byteArray))
 	return byteArray, nil
 }
