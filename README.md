@@ -1,6 +1,12 @@
 # Hue
 Hue Bridgeを経由してライトをOn/Offするコマンドライン
 
+# environments
+```
+HUE_BRIDGE_URL=http://192.168.0.0
+HUE_BRIDGE_TOKEN=token
+```
+
 # install
 `go install`
 
